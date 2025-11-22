@@ -9,7 +9,7 @@ app=Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('inicial.html')
+    return render_template('https://sibraclas-production.up.railway.app/inicial.html')
 
 @app.route('/pagar')
 def pagar():
